@@ -4,6 +4,6 @@ This is the web application developed in react which uses mongodb for database. 
 * I have split my website in two faces: Admin Site(Used to do CRED operations in database) and the actual site which the user will see...
 
 # Normal User Site
-![Alt text](https://drive.google.com/file/d/1pOWbarAHGbxYNKySXBFIV11DWPML6wJh/view?usp=sharing "Amazon Site Look")
+![Alt text](https://user-images.githubusercontent.com/54973413/130322747-4d1039ec-dde8-4eeb-8764-abd17dcb297a.png "Amazon Site Look")
 
 
