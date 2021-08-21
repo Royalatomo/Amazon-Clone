@@ -6,7 +6,7 @@ This is the web application developed in react which uses mongodb for database. 
 # ______________ Normal User Site ______________
 ![Alt text](https://user-images.githubusercontent.com/54973413/130322747-4d1039ec-dde8-4eeb-8764-abd17dcb297a.png "Amazon Site Look")
 
-## ** Introduction To Header
+## Introduction To Header
 ![Alt text](https://user-images.githubusercontent.com/54973413/130324829-6d848251-52e3-4a53-b540-3034627b4fba.jpg "Amazon Site Look")
 
 
