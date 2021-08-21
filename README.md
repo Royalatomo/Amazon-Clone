@@ -47,3 +47,6 @@ This is the web application developed in react which uses mongodb for database. 
 ![Alt text](https://user-images.githubusercontent.com/54973413/130326980-2e0e5c55-58d2-4a14-bc08-3cdf04b0f6dd.jpg "Amazon Site Look")
 ![Alt text](https://user-images.githubusercontent.com/54973413/130326982-9e2af4ae-c09d-430e-acae-f46f1da33278.jpg "Amazon Site Look")
 ![Alt text](https://user-images.githubusercontent.com/54973413/130326984-01a4b531-15e5-4bf7-83b0-625d95d08036.jpg "Amazon Site Look")
+
+
+# ______________ APIs Which Is Created By This Application ______________
