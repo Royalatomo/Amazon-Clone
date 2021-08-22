@@ -129,3 +129,19 @@ Requires:--
 ![Alt text](https://user-images.githubusercontent.com/54973413/130347897-360d0679-8323-4995-9f80-ce1b6d1afc0a.jpg "Amazon Site Look")
 ![Alt text](https://user-images.githubusercontent.com/54973413/130347899-fae76446-6ec4-41ee-a04d-85167dc2f450.jpg "Amazon Site Look")
 
+
+## Find Product By Id:-- (/findone)
+
+* EndPoint: http://localhost:4444/findone
+* Method: POST
+
+Requires:--
+
+* api (optional) = If "true" then returns data in json format(No Login Required).. or if isn't specified then returns HTML page(Login Required)...
+* productId = Product's Id
+
+
+![Alt text](https://user-images.githubusercontent.com/54973413/130348356-6f86e32b-f3d4-4b06-b82f-8d6b433fb196.jpg "Amazon Site Look")
+![Alt text](https://user-images.githubusercontent.com/54973413/130348361-46d3ad97-42ec-409a-9f97-b09735d38781.jpg "Amazon Site Look")
+![Alt text](https://user-images.githubusercontent.com/54973413/130348363-113eea59-0c93-465c-93ad-827c835e9c5b.jpg "Amazon Site Look")
+
