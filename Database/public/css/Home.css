@@ -1,0 +1,124 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/9e/74/7d/9e747dd76f1be3d062748e6b3d030f6b.jpg');
+}
+
+.logout-btn {
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+    padding: 7px 25px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 0;
+    background: green;
+    color: white;
+}
+
+#add-item-form, #findall-item-form, #findone-item-form, #delete-item-form {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 22vw;
+    margin-top: 35px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+#add-item-form .main-form, #add-item-form .second-form, #findone-item-form .main-form, #findone-item-form .second-form, #findall-item-form .main-form, #findall-item-form .second-form, #delete-item-form .main-form, #delete-item-form .second-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px black;
+}
+
+#add-item-form input, #findone-item-form input, #findall-item-form input, #delete-item-form input {
+    width: 80%;
+    height: 45px;
+    font-size: 26px;
+    padding-left: 30px;
+    cursor: auto;
+    border-radius: 10px;
+}
+
+#add-item-form button, #findone-item-form button, #findall-item-form button, #delete-item-form button {
+    width: 43%;
+    height: 46px;
+    font-size: 23px;
+    margin-top: 20px;
+    color: white;
+    background: black;
+    border: 0;
+    border: 3px solid red;
+}
+
+#add-item-form button:hover, #findone-item-form button:hover, #findall-item-form button:hover, #delete-item-form button:hover {
+    background: #000000b0
+}
+
+#add-item-form p {
+    color: #00ad00;
+    margin: 0;
+    position: relative;
+    bottom: 30px;
+}
+
+#delete-item-form p {
+    color: red;
+    margin: 0;
+    position: relative;
+    bottom: 30px;
+}
+
+#add-item-form p, #delete-item-form p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    text-shadow: 0px 2px black;
+}
+
+hr {
+    border: 2px solid;
+    margin-top: 20px;
+}
+
+#findone-item-form p, #findall-item-form p {
+    font-weight: 600;
+    color: rgb(255 255 255);
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 2px;
+    text-shadow: 0 2px black;
+}
+
+#findone-item-form p small, #findall-item-form p small {
+    font-weight: 600;
+    color: black !important;
+    text-shadow: 0 0 black;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 40px;
+}
+
+#findall-item-form input[type="checkbox"] {
+    width: 37px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #000000b0
+}
+
+.second-form button {
+    margin-bottom: 50px !important;
+}
+
+.main-form button {
+    margin-top: 50px !important;
+}

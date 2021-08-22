@@ -1,0 +1,106 @@
+<%- include('header') -%>
+
+    <link rel="stylesheet" href="/css/Home.css">
+
+    <form action="/logout" method="POST">
+        <button class="logout-btn" type="submit">Log Out</button>
+    </form>
+
+    <div id="add-item-form">
+
+        <form action="/add" method="POST" class="main-form">
+            <h1>Add Item</h1>
+            <input type="text" placeholder="Enter Product Id" name="id"><br>
+            <input type="text" placeholder="Enter Title For Product" name="title" autocomplete="off"><br>
+            <input type="text" placeholder="Enter Img Link" name="img" autocomplete="off"><br>
+            <input type="number" placeholder="Enter Product Price" name="price"><br>
+            <input type="number" placeholder="Enter Product Rating" name="rating"><br>
+            <input type="text" placeholder="Enter Product Tags" name="tags"><br>
+            <button type="submit">Add Item</button>
+        </form>
+
+        <form action="/add" method="POST" class="second-form">
+            <input style="display: none;" type="number" name="reset" value="1">
+            <button type="submit">Clear</button>
+        </form>
+
+        <p>
+            <%= addItemText %>
+        </p>
+
+    </div>
+
+    <div id="findone-item-form">
+        
+        <form action="/findone" method="POST" class="main-form">
+            <h1>Find Item By Id</h1>
+            <input type="text" placeholder="Enter Product Id" name="productId">
+            <button type="submit">Search</button>        
+        </form>
+        
+        <form action="/findone" method="POST" class="second-form">
+            <input style="display: none;" type="number" name="reset" value="1">
+            <button type="submit">Clear</button>
+        </form>
+    
+        <% if(findByIdText) { %>
+            <hr>            
+            <p> <small> ID: </small> <%=  findByIdText._id %></p>
+            <p> <small> Title: </small> <%=  findByIdText.title %></p>
+            <p> <small> Image Link: </small> <%=  findByIdText.img %></p>
+            <p> <small> Price: </small> <%=  findByIdText.price %></p>
+            <p> <small> Rating: </small> <%=  findByIdText.rating %></p>
+            <p> <small> Tags: </small> <%=  findByIdText.tags %></p>
+            <hr style="visibility: hidden;">            
+        <% } %>
+
+    </div>
+
+
+    <div id="findall-item-form">
+        
+        <form action="/findall" method="POST" class="main-form">
+            <h1>Find All Items</h1>
+            <input type="text" id="tag-box" name="tags" placeholder="tags">
+            <button type="submit">Search All</button>
+        </form>
+        
+        <form action="/findall" method="POST" class="second-form">
+            <input style="display: none;" type="number" name="reset" value="1">
+            <button type="submit">Clear</button>
+        </form>
+        
+        <% for (let i=0; i<findAllText.length; i++) { %>
+            <hr >
+            <p> <small> ID: </small> <%=  findAllText[i]._id %></p>
+            <p> <small> Title: </small> <%=  findAllText[i].title %></p>
+            <p> <small> Image Link: </small> <%=  findAllText[i].img %></p>
+            <p> <small> Price: </small> <%=  findAllText[i].price %></p>
+            <p> <small> Rating: </small> <%=  findAllText[i].rating %></p>
+            <p> <small> Tags: </small> <%=  findAllText[i].tags %></p>
+            <hr style="visibility: hidden;">
+        <% } %>
+
+    </div>
+
+    <div id="delete-item-form">
+
+        <form action="/delete" method="POST" class="main-form">
+            <h1>Delete Item By Id</h1>
+            <input type="text" placeholder="Enter Product Id" name="productId">
+            <button type="submit">Delete Item</button>
+        </form>
+
+        <form action="/delete" method="POST" class="second-form">
+            <input style="display: none;" type="number" name="reset" value="1">
+            <button type="submit">Clear</button>
+        </form>
+
+        <p>
+            <%= deleteItemText %>
+        </p>
+
+    </div>
+
+
+<%- include('footer') -%>
