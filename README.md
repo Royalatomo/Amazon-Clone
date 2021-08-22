@@ -83,7 +83,9 @@ SESSION_SECRET="yrB8M5vhcpdsF520xlC8bR0gw25R2t
 
 * EndPoint: http://localhost:4444/admin-will-register
 * Method: POST
----- Requires:--
+* 
+Requires:--
+
 * key = Must be same as KEY in .env file in "Database" folder
 * username = Username For Your New Admin Account
 * password = Password For Your New Admin Account
