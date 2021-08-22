@@ -65,7 +65,7 @@ Install All Required Libraries (components)
 
 Setting MongoDb (Do Only if you haven't installed mongodb in the same machine which you are using)
 
-* Open src/App.js and src/components/Header.js... Set "database_Link" from localhost to IP address of the machine which has mongodb.
+* Open src/App.js and src/components/Header.js... Set "serverIp" from localhost to IP address of the machine which has mongodb server running.
 
 Setting .env file
 
