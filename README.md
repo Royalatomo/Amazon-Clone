@@ -145,3 +145,36 @@ Requires:--
 ![Alt text](https://user-images.githubusercontent.com/54973413/130348361-46d3ad97-42ec-409a-9f97-b09735d38781.jpg "Amazon Site Look")
 ![Alt text](https://user-images.githubusercontent.com/54973413/130348363-113eea59-0c93-465c-93ad-827c835e9c5b.jpg "Amazon Site Look")
 
+
+## Find All Product:-- (/findall)
+
+* EndPoint: http://localhost:4444/findall
+* Method: POST
+
+Requires:--
+
+* api (optional) = If "true" then returns data in json format(No Login Required).. or if isn't specified then returns HTML page(Login Required)...
+* tags (optional) = If specified returns only that product which contains that tag ... If Not specified then returns all Products from database.. Make sure you type more than on tag like this: "tag1,tag2,tag3" not lik "tag1, tag2, tag3" no spaces allowed between tags..
+
+example: tags = "laptop,smartphone"
+
+
+## Delete Product:-- (/delete)
+
+* EndPoint: http://localhost:4444/delete
+* Method: POST
+* You Must Be Logged In Before Using This API... (Register New User or Login To Existing User)
+
+Requires:--
+
+* productId = Product's Id
+
+# Logout From Account:-- (/logout)
+
+* EndPoint: http://localhost:4444/logout
+* Method: POST
+* You Must Be Logged In Before Using This API... (Register New User or Login To Existing User)
+
+Requires:--
+
+* Nothing Required To Logout
