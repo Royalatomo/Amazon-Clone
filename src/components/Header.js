@@ -16,8 +16,9 @@ const { v4: uuidv4 } = require('uuid');
 
 // Main Function
 export default function Header() {
-
-    const database_Link = "http://192.168.1.5:4444/findall"
+    
+    const serverIp = "localhost"
+    const database_Link = `http://${serverIp}:4444/findall`
 
     // eslint-disable-next-line
     const [{ basket, user }, dispatch] = useStateValue(); // Reads Data from basket(cart items) and user(email)
