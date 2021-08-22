@@ -95,3 +95,17 @@ Requires:--
 ![Alt text](https://user-images.githubusercontent.com/54973413/130347339-747cc0e8-1537-4390-a40d-aed6c00118a1.jpg "Amazon Site Look")
 
 
+## Login To Admin Account API:-- (/login)
+
+* EndPoint: http://localhost:4444/login
+* Method: POST
+
+Requires:--
+
+* username = Username Of Your Admin Account
+* password = Password Of Your Admin Account
+
+
+![Alt text](https://user-images.githubusercontent.com/54973413/130347667-812d0d16-f0dd-4280-adda-fce03f79a8fe.jpg "Amazon Site Look")
+![Alt text](https://user-images.githubusercontent.com/54973413/130347669-4c24d680-d6e9-456f-9630-b4426230b1b8.jpg "Amazon Site Look")
+
