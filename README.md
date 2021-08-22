@@ -79,7 +79,7 @@ SESSION_SECRET="yrB8M5vhcpdsF520xlC8bR0gw25R2t
 
 # ________ APIs Which Is Created By This Application _________
 
-## Register For Admin Account API:--
+## Register For Admin Account API:-- (/admin-will-register)
 
 EndPoint: http://localhost:4444/admin-will-register
 Method: POST
