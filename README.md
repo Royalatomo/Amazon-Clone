@@ -82,7 +82,7 @@ Description About .env variables
 
 Run Files
 
-* npm run bulit (main folder)
+* npm run build (main folder)
 * npm start (main folder)
 * node App.js (Database folder)
 
