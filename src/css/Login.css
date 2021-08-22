@@ -1,0 +1,160 @@
+.amz-logo {
+    background-position: -5px -130px;
+    background-image: url('/images/images.png');
+    height: 31px;
+    width: 103px;
+}
+
+.login-body {
+    font-family: sans-serif;
+    padding: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(97vw + 27px);
+    height: calc(91vh + 9px);
+    background-color: #fff;
+    margin-bottom: 0px;
+    padding-bottom: 53px;
+}
+
+.logo-img {
+    display: flex;
+}
+
+.logo-text {
+    position: relative;
+    bottom: 9px;
+    left: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login-form {
+    width: 389px;
+    padding-bottom: 115px;
+    margin-top: 20px;
+    border: 3px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-heading {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.input-text {
+    font-weight: 600;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.input-field {
+    padding: 0 8px;
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field input {
+    width: 22rem;
+    margin-top: 6px;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+    border: 2px solid #afafaf;
+    height: 23px;
+}
+
+.continue-button{
+    position: relative;
+    width: 367px;
+    font-weight: 700;
+    height: 44px;
+    font-size: 16px;
+    border: 2px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    background: #f0c14b;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.input-field input:focus {
+    outline: none;
+    border: 2px solid #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.term-condition {
+    margin-top: 23px;
+    padding-left: 14px;
+}
+
+.term-condition a {
+    color: #0079f5;
+    text-decoration: none;
+}
+
+.term-condition a:hover {
+    color: #e77600;
+    text-decoration: underline;
+}
+
+.new-account{
+    width: 13rem;
+    color: #c1c1c1;
+}
+
+.hr1{
+    position: relative;
+    border: 1px solid;
+    width: 140px;
+    top: 24px;
+    right: 141px;
+}
+
+.new-account .text{
+    position: relative;
+    margin: 0;
+    font-weight: 600;
+    top: 5px;
+    left: 45px;
+    color: #777777;
+}
+
+.hr2{
+    position: relative;
+    border: 1px solid;
+    width: 129px;
+    left: 148px;
+    bottom: 12px;
+}
+
+.new-account-button{
+    position: relative;
+    width: 430px;
+    height: 34px;
+    font-size: 17px;
+    background: #e7e9ec;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    text-align: center;
+    right: 30px;
+    top: 180px;
+}
+
+@media screen and (max-height: 630px) {
+    .login-body{
+        padding-bottom: 140px;
+    }
+}
