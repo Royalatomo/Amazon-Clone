@@ -81,12 +81,12 @@ SESSION_SECRET="yrB8M5vhcpdsF520xlC8bR0gw25R2t
 
 ## Register For Admin Account API:-- (/admin-will-register)
 
-EndPoint: http://localhost:4444/admin-will-register
-Method: POST
+* EndPoint: http://localhost:4444/admin-will-register
+* Method: POST
 Requires:--
-key = Must be same as KEY in .env file in "Database" folder
-username = Username For Your New Admin Account
-password = Password For Your New Admin Account
+* key = Must be same as KEY in .env file in "Database" folder
+* username = Username For Your New Admin Account
+* password = Password For Your New Admin Account
 
 
 ![Alt text](https://user-images.githubusercontent.com/54973413/130347337-f06d80cf-7d89-4bc9-a1fc-98ae5fa92d6d.jpg "Amazon Site Look")
