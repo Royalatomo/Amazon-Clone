@@ -20,8 +20,8 @@ const { v4: uuidv4 } = require('uuid');
 
 // Main Function
 export default function App() {
-
-    const database_Link = "http://192.168.1.5:4444/findall"
+    const serverIp = "localhost"
+    const database_Link = `http://${serverIp}:4444/findall`
     
     // eslint-disable-next-line
     const [{}, dispatch] = useStateValue(); // will store user name if user logged in
