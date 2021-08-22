@@ -109,3 +109,23 @@ Requires:--
 ![Alt text](https://user-images.githubusercontent.com/54973413/130347667-812d0d16-f0dd-4280-adda-fce03f79a8fe.jpg "Amazon Site Look")
 ![Alt text](https://user-images.githubusercontent.com/54973413/130347669-4c24d680-d6e9-456f-9630-b4426230b1b8.jpg "Amazon Site Look")
 
+
+## Add New Product To Databse API:-- (/add)
+
+* EndPoint: http://localhost:4444/add
+* Method: POST
+* You Must Be Logged In Before Using This API... (Register New User or Login To Existing User)
+
+Requires:--
+
+* id (optional): Type a id for product or leave blank it is generated automatically.
+* title: Product Title Text
+* img: Product Image Link
+* price: Product Price
+* rating: How Many Stars To Display Out Of 5
+* tags: Tags For This Product
+
+
+![Alt text](https://user-images.githubusercontent.com/54973413/130347897-360d0679-8323-4995-9f80-ce1b6d1afc0a.jpg "Amazon Site Look")
+![Alt text](https://user-images.githubusercontent.com/54973413/130347899-fae76446-6ec4-41ee-a04d-85167dc2f450.jpg "Amazon Site Look")
+
