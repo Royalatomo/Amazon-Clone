@@ -77,7 +77,7 @@ SESSION_SECRET="yrB8M5vhcpdsF520xlC8bR0gw25R2t
 * http://localhost:4444 : Admin Control Pannel
 
 
-# ______________ APIs Which Is Created By This Application ______________
+# ________ APIs Which Is Created By This Application _________
 
 ## Register For Admin Account API:--
 
