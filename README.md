@@ -53,28 +53,41 @@ This is the web application developed in react which uses mongodb for database. 
 
 # _________ Installation ___________
 
+Firebase ---
+
+* Go to firebase and create a new project.
+* Go TO src/firebase.js see the "firebaseConfig" variable type all the credentials and save
+
+Install All Required Libraries (components)
+
 * npm i (in main folder)
 * npm i (in Databse folder)
 
---- Setting MongoDb (Do Only if you haven't installed mongodb in the same machine which you are using)
+Setting MongoDb (Do Only if you haven't installed mongodb in the same machine which you are using)
+
 * Open src/App.js and src/components/Header.js... Set "database_Link" from localhost to IP address of the machine which has mongodb.
 
----- Setting .env file
+Setting .env file
+
 * Create a file name ".env" in "Database" folder.
 * Add Following Entries (Don't need to put it same you can add any string in the following variables it's just an example)
-KEY="97l33y8OUOj3PY837Ab1ZNvwDbDMxdweoYTaJi82lOLxGKoWOSdVRH2GnWihqrnMhQdsz5"
-SESSION_SECRET="yrB8M5vhcpdsF520xlC8bR0gw25R2t
+* KEY="97l33y8OUOj3PY837Ab1ZNvwDbDMxdweoYTaJi82lOLxGKoWOSdVRH2GnWihqrnMhQdsz5"
+* SESSION_SECRET="yrB8M5vhcpdsF520xlC8bR0gw25R2t
+
+Description About .env variables
 
 * KEY is used by /admin-will-register POST API for authentication.
 * SESSION_SECRET used for authentication process (when logging in or registring a new admin user)
 
 
------ Run Files
+Run Files
+
 * npm run bulit (main folder)
 * npm start (main folder)
 * node App.js (Database folder)
 
----- Servers Link
+Servers Link
+
 * http://localhost:3000 : Amazon User Viewing Site
 * http://localhost:4444 : Admin Control Pannel
 
