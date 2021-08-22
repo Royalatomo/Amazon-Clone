@@ -72,7 +72,7 @@ Setting .env file
 * Create a file name ".env" in "Database" folder.
 * Add Following Entries (Don't need to put it same you can add any string in the following variables it's just an example)
 * KEY="97l33y8OUOj3PY837Ab1ZNvwDbDMxdweoYTaJi82lOLxGKoWOSdVRH2GnWihqrnMhQdsz5"
-* SESSION_SECRET="yrB8M5vhcpdsF520xlC8bR0gw25R2t
+* SESSION_SECRET="yrB8M5vhcpdsF520xlC8bR0gw25R2t"
 
 Description About .env variables
 
